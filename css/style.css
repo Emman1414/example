@@ -763,3 +763,22 @@ html {
   --tw-text-opacity: 1;
   color: rgb(14 116 144 / var(--tw-text-opacity));
 }
+
+input[type="text"],
+input[type="email"] {
+  height: 30px;
+  width: 100%;
+  border: 1px solid #666666;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #666666;
+  height: 200px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #666666;
+  height: 30px;
+}

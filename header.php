@@ -38,9 +38,9 @@
             <ul
               class="flex justify-end gap-2 border-t border-b w-[800px] mx-auto py-2 font-[18px]"
             >
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">HOME</a></li>
+            <?php wp_menu_li(); ?>
             </ul>
+            
           </nav>
         </div>
       </div>
